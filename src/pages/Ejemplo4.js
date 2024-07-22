@@ -1,25 +1,25 @@
 import alumnos from '../data/alumnos.json';
 
-const   CargaJsaon = (props) => {
+const CargaJsaon = (props) => {
 
     //console.log(alumnos)
 
-    return(
+    return (
         <>
-        <h1>Ejemplo carga de Json</h1>
-        <ul>
-            {
-                alumnos.map(alumno=>(
-                    <li key={alumno.nombre}>{alumno.nombre} {alumno.apellido} {alumno.edad}</li>
+            <h1>Ejemplo carga de Json</h1>
+            <ul>
+                {
+                    alumnos.map(alumno => (
+                        <li key={alumno.id}> {alumno.id} : {alumno.nombre} {alumno.apellido} {alumno.edad}</li>
 
-                ))
-            }
-
-
+                    ))
+                }
 
 
 
-        </ul>
+
+
+            </ul>
         </>
     )
 }
