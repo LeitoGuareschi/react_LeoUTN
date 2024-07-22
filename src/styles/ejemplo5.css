@@ -30,7 +30,7 @@
     margin-left: 16px;
 }
 
-.personaje .ficha .foto{
+.personaje .ficha .foto img{
     display: block;
     width: 100%;
     border-radius: 8px;
